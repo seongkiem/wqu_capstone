@@ -1,0 +1,367 @@
+
+============Start Ensemble Strategy============
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2014-01-02T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2014-01-02T00:00:00.000000000 to 2014-04-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.021232341953750997
+======PPO Training========
+======PPO Validation from: 2014-01-02T00:00:00.000000000 to 2014-04-03T00:00:00.000000000
+PPO Sharpe Ratio: 0.10462002529659467
+======DDPG Training========
+======DDPG Validation from: 2014-01-02T00:00:00.000000000 to 2014-04-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.11878230866658598
+======Trading from: 2014-04-03T00:00:00.000000000 to 2014-07-03T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323B2617F0>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2014-04-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2014-04-03T00:00:00.000000000 to 2014-07-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.23765459406847245
+======PPO Training========
+======PPO Validation from: 2014-04-03T00:00:00.000000000 to 2014-07-03T00:00:00.000000000
+PPO Sharpe Ratio: 0.13177757596441556
+======DDPG Training========
+======DDPG Validation from: 2014-04-03T00:00:00.000000000 to 2014-07-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.13812692902827328
+======Trading from: 2014-07-03T00:00:00.000000000 to 2014-10-02T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323ADC2550>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2014-07-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2014-07-03T00:00:00.000000000 to 2014-10-02T00:00:00.000000000
+A2C Sharpe Ratio: 0.008109486252611951
+======PPO Training========
+======PPO Validation from: 2014-07-03T00:00:00.000000000 to 2014-10-02T00:00:00.000000000
+PPO Sharpe Ratio: -0.08105674349442708
+======DDPG Training========
+======DDPG Validation from: 2014-07-03T00:00:00.000000000 to 2014-10-02T00:00:00.000000000
+DDPG Sharpe Ratio: -0.06248604757332057
+======Trading from: 2014-10-02T00:00:00.000000000 to 2015-01-02T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323A666C50>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2014-10-02T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2014-10-02T00:00:00.000000000 to 2015-01-02T00:00:00.000000000
+A2C Sharpe Ratio: -0.04721442047696456
+======PPO Training========
+======PPO Validation from: 2014-10-02T00:00:00.000000000 to 2015-01-02T00:00:00.000000000
+PPO Sharpe Ratio: 0.19561567086877685
+======DDPG Training========
+======DDPG Validation from: 2014-10-02T00:00:00.000000000 to 2015-01-02T00:00:00.000000000
+DDPG Sharpe Ratio: 0.17391701456629588
+======Trading from: 2015-01-02T00:00:00.000000000 to 2015-04-06T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x0000023256C766A0>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2015-01-02T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2015-01-02T00:00:00.000000000 to 2015-04-06T00:00:00.000000000
+A2C Sharpe Ratio: 0.19763356520754458
+======PPO Training========
+======PPO Validation from: 2015-01-02T00:00:00.000000000 to 2015-04-06T00:00:00.000000000
+PPO Sharpe Ratio: 0.07036832571393915
+======DDPG Training========
+======DDPG Validation from: 2015-01-02T00:00:00.000000000 to 2015-04-06T00:00:00.000000000
+DDPG Sharpe Ratio: 0.10029862989958828
+======Trading from: 2015-04-06T00:00:00.000000000 to 2015-07-06T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323AE8F400>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2015-04-06T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2015-04-06T00:00:00.000000000 to 2015-07-06T00:00:00.000000000
+A2C Sharpe Ratio: -0.0371443316470232
+======PPO Training========
+======PPO Validation from: 2015-04-06T00:00:00.000000000 to 2015-07-06T00:00:00.000000000
+PPO Sharpe Ratio: 0.003491509969161144
+======DDPG Training========
+======DDPG Validation from: 2015-04-06T00:00:00.000000000 to 2015-07-06T00:00:00.000000000
+DDPG Sharpe Ratio: -0.06934289759594756
+======Trading from: 2015-07-06T00:00:00.000000000 to 2015-10-02T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x000002323B195A20>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2015-07-06T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2015-07-06T00:00:00.000000000 to 2015-10-02T00:00:00.000000000
+A2C Sharpe Ratio: -0.00809268981489601
+======PPO Training========
+======PPO Validation from: 2015-07-06T00:00:00.000000000 to 2015-10-02T00:00:00.000000000
+PPO Sharpe Ratio: -0.11698425547654898
+======DDPG Training========
+======DDPG Validation from: 2015-07-06T00:00:00.000000000 to 2015-10-02T00:00:00.000000000
+DDPG Sharpe Ratio: -0.003531286037825442
+======Trading from: 2015-10-02T00:00:00.000000000 to 2016-01-04T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323B350B70>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2015-10-02T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2015-10-02T00:00:00.000000000 to 2016-01-04T00:00:00.000000000
+A2C Sharpe Ratio: 0.19244177254959047
+======PPO Training========
+======PPO Validation from: 2015-10-02T00:00:00.000000000 to 2016-01-04T00:00:00.000000000
+PPO Sharpe Ratio: 0.028359233316712636
+======DDPG Training========
+======DDPG Validation from: 2015-10-02T00:00:00.000000000 to 2016-01-04T00:00:00.000000000
+DDPG Sharpe Ratio: 0.3356231732740046
+======Trading from: 2016-01-04T00:00:00.000000000 to 2016-04-05T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323ABB5710>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2016-01-04T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2016-01-04T00:00:00.000000000 to 2016-04-05T00:00:00.000000000
+A2C Sharpe Ratio: 0.07165418659196632
+======PPO Training========
+======PPO Validation from: 2016-01-04T00:00:00.000000000 to 2016-04-05T00:00:00.000000000
+PPO Sharpe Ratio: 0.13399464140105066
+======DDPG Training========
+======DDPG Validation from: 2016-01-04T00:00:00.000000000 to 2016-04-05T00:00:00.000000000
+DDPG Sharpe Ratio: 0.09810899410882443
+======Trading from: 2016-04-05T00:00:00.000000000 to 2016-07-05T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x000002323AB2DD68>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2016-04-05T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2016-04-05T00:00:00.000000000 to 2016-07-05T00:00:00.000000000
+A2C Sharpe Ratio: 0.041307429503572024
+======PPO Training========
+======PPO Validation from: 2016-04-05T00:00:00.000000000 to 2016-07-05T00:00:00.000000000
+PPO Sharpe Ratio: -0.0008723709739965389
+======DDPG Training========
+======DDPG Validation from: 2016-04-05T00:00:00.000000000 to 2016-07-05T00:00:00.000000000
+DDPG Sharpe Ratio: 0.0033152626159467014
+======Trading from: 2016-07-05T00:00:00.000000000 to 2016-10-03T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x00000232567865C0>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2016-07-05T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2016-07-05T00:00:00.000000000 to 2016-10-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.1359090304106586
+======PPO Training========
+======PPO Validation from: 2016-07-05T00:00:00.000000000 to 2016-10-03T00:00:00.000000000
+PPO Sharpe Ratio: -0.06284970150857142
+======DDPG Training========
+======DDPG Validation from: 2016-07-05T00:00:00.000000000 to 2016-10-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.08580087290843064
+======Trading from: 2016-10-03T00:00:00.000000000 to 2017-01-03T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323D2440B8>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2016-10-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2016-10-03T00:00:00.000000000 to 2017-01-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.22326419937727487
+======PPO Training========
+======PPO Validation from: 2016-10-03T00:00:00.000000000 to 2017-01-03T00:00:00.000000000
+PPO Sharpe Ratio: 0.14567895007235268
+======DDPG Training========
+======DDPG Validation from: 2016-10-03T00:00:00.000000000 to 2017-01-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.0641495914937127
+======Trading from: 2017-01-03T00:00:00.000000000 to 2017-04-04T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323B24B198>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2017-01-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2017-01-03T00:00:00.000000000 to 2017-04-04T00:00:00.000000000
+A2C Sharpe Ratio: 0.4129991821267695
+======PPO Training========
+======PPO Validation from: 2017-01-03T00:00:00.000000000 to 2017-04-04T00:00:00.000000000
+PPO Sharpe Ratio: 0.6392015106830649
+======DDPG Training========
+======DDPG Validation from: 2017-01-03T00:00:00.000000000 to 2017-04-04T00:00:00.000000000
+DDPG Sharpe Ratio: 0.22126105173270014
+======Trading from: 2017-04-04T00:00:00.000000000 to 2017-07-05T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x000002323B584F28>
+============================================
+turbulence_threshold: 1081.214238
+======Model training from: 2007-04-01 to 2017-04-04T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2017-04-04T00:00:00.000000000 to 2017-07-05T00:00:00.000000000
+A2C Sharpe Ratio: 0.28668761109267393
+======PPO Training========
+======PPO Validation from: 2017-04-04T00:00:00.000000000 to 2017-07-05T00:00:00.000000000
+PPO Sharpe Ratio: 0.1951253630460204
+======DDPG Training========
+======DDPG Validation from: 2017-04-04T00:00:00.000000000 to 2017-07-05T00:00:00.000000000
+DDPG Sharpe Ratio: 0.23854491363737323
+======Trading from: 2017-07-05T00:00:00.000000000 to 2017-10-03T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x0000023256907B00>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2017-07-05T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2017-07-05T00:00:00.000000000 to 2017-10-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.4712380456475655
+======PPO Training========
+======PPO Validation from: 2017-07-05T00:00:00.000000000 to 2017-10-03T00:00:00.000000000
+PPO Sharpe Ratio: 0.13458131394906053
+======DDPG Training========
+======DDPG Validation from: 2017-07-05T00:00:00.000000000 to 2017-10-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.30408408060320646
+======Trading from: 2017-10-03T00:00:00.000000000 to 2018-01-03T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x0000023256AE66A0>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2017-10-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2017-10-03T00:00:00.000000000 to 2018-01-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.2579671618556671
+======PPO Training========
+======PPO Validation from: 2017-10-03T00:00:00.000000000 to 2018-01-03T00:00:00.000000000
+PPO Sharpe Ratio: 0.43989847564186346
+======DDPG Training========
+======DDPG Validation from: 2017-10-03T00:00:00.000000000 to 2018-01-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.38534338013136316
+======Trading from: 2018-01-03T00:00:00.000000000 to 2018-04-05T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x00000232569DAB00>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2018-01-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2018-01-03T00:00:00.000000000 to 2018-04-05T00:00:00.000000000
+A2C Sharpe Ratio: -0.2457131237378799
+======PPO Training========
+======PPO Validation from: 2018-01-03T00:00:00.000000000 to 2018-04-05T00:00:00.000000000
+PPO Sharpe Ratio: -0.26458897831751427
+======DDPG Training========
+======DDPG Validation from: 2018-01-03T00:00:00.000000000 to 2018-04-05T00:00:00.000000000
+DDPG Sharpe Ratio: -0.26509670824532844
+======Trading from: 2018-04-05T00:00:00.000000000 to 2018-07-05T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x0000023256A10A20>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2018-04-05T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2018-04-05T00:00:00.000000000 to 2018-07-05T00:00:00.000000000
+A2C Sharpe Ratio: 0.18202240634124012
+======PPO Training========
+======PPO Validation from: 2018-04-05T00:00:00.000000000 to 2018-07-05T00:00:00.000000000
+PPO Sharpe Ratio: 0.09233528497027378
+======DDPG Training========
+======DDPG Validation from: 2018-04-05T00:00:00.000000000 to 2018-07-05T00:00:00.000000000
+DDPG Sharpe Ratio: 0.14398434141431812
+======Trading from: 2018-07-05T00:00:00.000000000 to 2018-10-03T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323AA0D4E0>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2018-07-05T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2018-07-05T00:00:00.000000000 to 2018-10-03T00:00:00.000000000
+A2C Sharpe Ratio: 0.2141426123712915
+======PPO Training========
+======PPO Validation from: 2018-07-05T00:00:00.000000000 to 2018-10-03T00:00:00.000000000
+PPO Sharpe Ratio: 0.29534291743075963
+======DDPG Training========
+======DDPG Validation from: 2018-07-05T00:00:00.000000000 to 2018-10-03T00:00:00.000000000
+DDPG Sharpe Ratio: 0.1435527773342648
+======Trading from: 2018-10-03T00:00:00.000000000 to 2019-01-04T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x000002323A04FF98>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2018-10-03T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2018-10-03T00:00:00.000000000 to 2019-01-04T00:00:00.000000000
+A2C Sharpe Ratio: -0.056833342590150895
+======PPO Training========
+======PPO Validation from: 2018-10-03T00:00:00.000000000 to 2019-01-04T00:00:00.000000000
+PPO Sharpe Ratio: 0.020477679595574384
+======DDPG Training========
+======DDPG Validation from: 2018-10-03T00:00:00.000000000 to 2019-01-04T00:00:00.000000000
+DDPG Sharpe Ratio: -0.07140557362448753
+======Trading from: 2019-01-04T00:00:00.000000000 to 2019-04-05T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x00000232567756D8>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2019-01-04T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2019-01-04T00:00:00.000000000 to 2019-04-05T00:00:00.000000000
+A2C Sharpe Ratio: 0.2565061274655652
+======PPO Training========
+======PPO Validation from: 2019-01-04T00:00:00.000000000 to 2019-04-05T00:00:00.000000000
+PPO Sharpe Ratio: 0.29788511649942045
+======DDPG Training========
+======DDPG Validation from: 2019-01-04T00:00:00.000000000 to 2019-04-05T00:00:00.000000000
+DDPG Sharpe Ratio: 0.3597240280289138
+======Trading from: 2019-04-05T00:00:00.000000000 to 2019-07-08T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323A5AF710>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2019-04-05T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2019-04-05T00:00:00.000000000 to 2019-07-08T00:00:00.000000000
+A2C Sharpe Ratio: 0.5100072215040599
+======PPO Training========
+======PPO Validation from: 2019-04-05T00:00:00.000000000 to 2019-07-08T00:00:00.000000000
+PPO Sharpe Ratio: 0.4862405443129571
+======DDPG Training========
+======DDPG Validation from: 2019-04-05T00:00:00.000000000 to 2019-07-08T00:00:00.000000000
+DDPG Sharpe Ratio: 0.6082287056295147
+======Trading from: 2019-07-08T00:00:00.000000000 to 2019-10-04T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323A04F668>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2019-07-08T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2019-07-08T00:00:00.000000000 to 2019-10-04T00:00:00.000000000
+A2C Sharpe Ratio: 0.01922670355093903
+======PPO Training========
+======PPO Validation from: 2019-07-08T00:00:00.000000000 to 2019-10-04T00:00:00.000000000
+PPO Sharpe Ratio: -0.08089103875631355
+======DDPG Training========
+======DDPG Validation from: 2019-07-08T00:00:00.000000000 to 2019-10-04T00:00:00.000000000
+DDPG Sharpe Ratio: -0.20790676000612432
+======Trading from: 2019-10-04T00:00:00.000000000 to 2020-01-06T00:00:00.000000000
+<stable_baselines.a2c.a2c.A2C object at 0x000002323A587208>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2019-10-04T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2019-10-04T00:00:00.000000000 to 2020-01-06T00:00:00.000000000
+A2C Sharpe Ratio: 0.06804810601586504
+======PPO Training========
+======PPO Validation from: 2019-10-04T00:00:00.000000000 to 2020-01-06T00:00:00.000000000
+PPO Sharpe Ratio: 0.07918131063457673
+======DDPG Training========
+======DDPG Validation from: 2019-10-04T00:00:00.000000000 to 2020-01-06T00:00:00.000000000
+DDPG Sharpe Ratio: 0.09042580584331648
+======Trading from: 2020-01-06T00:00:00.000000000 to 2020-04-06T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323CDE2A58>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2020-01-06T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2020-01-06T00:00:00.000000000 to 2020-04-06T00:00:00.000000000
+A2C Sharpe Ratio: 0.08764876896523172
+======PPO Training========
+======PPO Validation from: 2020-01-06T00:00:00.000000000 to 2020-04-06T00:00:00.000000000
+PPO Sharpe Ratio: -0.44121548992962223
+======DDPG Training========
+======DDPG Validation from: 2020-01-06T00:00:00.000000000 to 2020-04-06T00:00:00.000000000
+DDPG Sharpe Ratio: 0.1243569878402913
+======Trading from: 2020-04-06T00:00:00.000000000 to 2020-07-07T00:00:00.000000000
+<stable_baselines.ddpg.ddpg.DDPG object at 0x000002323A2D9FD0>
+============================================
+turbulence_threshold: 300.1990288
+======Model training from: 2007-04-01 to 2020-04-06T00:00:00.000000000
+======A2C Training========
+======A2C Validation from: 2020-04-06T00:00:00.000000000 to 2020-07-07T00:00:00.000000000
+A2C Sharpe Ratio: -0.36084134360417824
+======PPO Training========
+======PPO Validation from: 2020-04-06T00:00:00.000000000 to 2020-07-07T00:00:00.000000000
+PPO Sharpe Ratio: -0.2731223721654195
+======DDPG Training========
+======DDPG Validation from: 2020-04-06T00:00:00.000000000 to 2020-07-07T00:00:00.000000000
+DDPG Sharpe Ratio: -0.34919070338266667
+======Trading from: 2020-07-07T00:00:00.000000000 to 2020-10-05T00:00:00.000000000
+<stable_baselines.ppo2.ppo2.PPO2 object at 0x000002323AF83C88>
+Ensemble Strategy took: 1515.451217766603 minutes
