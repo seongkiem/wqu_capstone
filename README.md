@@ -8,7 +8,7 @@ Reinforcement learning is a sub-field of machine learning which is getting popul
 
 ## Installation:
 ```shell
-git clone https://github.com/seongkiem/wqu_capstone
+git clone https://github.com/seongkiem/wqu_capstone.git
 ```
 
 
