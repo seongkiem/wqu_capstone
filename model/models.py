@@ -236,8 +236,8 @@ def run_ensemble_strategy(df, unique_trade_date, rebalance_window, validation_wi
         file_object.write('\n======A2C Training========')
         model_a2c = train_A2C(env_train, model_name="A2C_30k_sp100_{}".format(i), timesteps=30000)
         print("======A2C Validation from: ", unique_trade_date[i - rebalance_window - validation_window], "to ",
-              unique_trade_date[i - rebalance_window])
-        file_object.write('\n======A2C Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window]))
+              unique_trade_date[i - rebalance_window-1])
+        file_object.write('\n======A2C Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window-1]))
         DRL_validation(model=model_a2c, test_data=validation, test_env=env_val, test_obs=obs_val)
         sharpe_a2c = get_validation_sharpe(i)
         print("A2C Sharpe Ratio: ", sharpe_a2c)
@@ -247,8 +247,8 @@ def run_ensemble_strategy(df, unique_trade_date, rebalance_window, validation_wi
         file_object.write('\n======PPO Training========')
         model_ppo = train_PPO(env_train, model_name="PPO_100k_sp100_{}".format(i), timesteps=100000)
         print("======PPO Validation from: ", unique_trade_date[i - rebalance_window - validation_window], "to ",
-              unique_trade_date[i - rebalance_window])
-        file_object.write('\n======PPO Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window]))
+              unique_trade_date[i - rebalance_window-1])
+        file_object.write('\n======PPO Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window-1]))
         DRL_validation(model=model_ppo, test_data=validation, test_env=env_val, test_obs=obs_val)
         sharpe_ppo = get_validation_sharpe(i)
         print("PPO Sharpe Ratio: ", sharpe_ppo)
@@ -258,8 +258,8 @@ def run_ensemble_strategy(df, unique_trade_date, rebalance_window, validation_wi
         file_object.write('\n======DDPG Training========')
         model_ddpg = train_DDPG(env_train, model_name="DDPG_10k_sp100_{}".format(i), timesteps=10000)
         print("======DDPG Validation from: ", unique_trade_date[i - rebalance_window - validation_window], "to ",
-              unique_trade_date[i - rebalance_window])
-        file_object.write('\n======DDPG Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window]))
+              unique_trade_date[i - rebalance_window-1])
+        file_object.write('\n======DDPG Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window-1]))
         DRL_validation(model=model_ddpg, test_data=validation, test_env=env_val, test_obs=obs_val)
         sharpe_ddpg = get_validation_sharpe(i)
         print("DDPG Sharpe Ratio: ", sharpe_ddpg)
