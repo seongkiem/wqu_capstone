@@ -11,7 +11,7 @@ def run_model() -> None:
     preprocessed_path = "preprocessing/data/full_data.csv"
     if os.path.exists(preprocessed_path):
         data = pd.read_csv(preprocessed_path, index_col=0)
-        data['datadate']=pd.to_datetime(data['datadate'])
+        data['datadate']=pd.to_datetime(data['datadate']).dt.strftime('%Y-%m-%d')
         #print(data.dtypes)
         
         print(len(data['datadate'].unique()))#1693
