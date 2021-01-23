@@ -143,8 +143,10 @@ def get_validation_sharpe(iteration):
     df_total_value = pd.read_csv('results/account_value_validation_{}.csv'.format(iteration), index_col=0)
     df_total_value.columns = ['account_value_train']
     df_total_value['daily_return'] = df_total_value.pct_change(1)
+    # daily risk free rate.
+    rf = (1.02147848084291189**(1/252))-1 
     if df_total_value['daily_return'].std()!=0:
-        sharpe = (4 ** 0.5) * df_total_value['daily_return'].mean() / \
+        sharpe = (252 ** 0.5) * (df_total_value['daily_return'].mean()-rf) / \
              df_total_value['daily_return'].std()
     else:
         sharpe=0
