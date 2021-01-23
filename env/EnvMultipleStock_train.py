@@ -117,8 +117,10 @@ class StockEnvTrain(gym.Env):
             #print("total_trades: ", self.trades)
             df_total_value.columns = ['account_value']
             df_total_value['daily_return']=df_total_value.pct_change(1)
+            # daily risk free rate.
+            rf = (1.02147848084291189**(1/252))-1 
             if df_total_value['daily_return'].std()!=0:
-                sharpe = (252**0.5)*df_total_value['daily_return'].mean()/ \
+                sharpe = (252**0.5)*(df_total_value['daily_return'].mean()-rf)/ \
                   df_total_value['daily_return'].std()
             else:
                 sharpe=0
