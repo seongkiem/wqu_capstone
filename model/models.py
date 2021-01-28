@@ -29,7 +29,7 @@ def train_A2C(env_train, model_name, timesteps=25000):
     """A2C model"""
 
     start = time.time()
-    model = A2C('MlpPolicy', env_train, verbose=0)
+    model = A2C('MlpPolicy', env_train, verbose=0, epsilon=0.01)
     model.learn(total_timesteps=timesteps)
     end = time.time()
 
@@ -57,7 +57,7 @@ def train_DDPG(env_train, model_name, timesteps=10000):
     action_noise = OrnsteinUhlenbeckActionNoise(mean=np.zeros(n_actions), sigma=float(0.5) * np.ones(n_actions))
 
     start = time.time()
-    model = DDPG('MlpPolicy', env_train, param_noise=param_noise, action_noise=action_noise)
+    model = DDPG('MlpPolicy', env_train, param_noise=param_noise, action_noise=action_noise,random_exploration=0.01)
     model.learn(total_timesteps=timesteps)
     end = time.time()
 
@@ -247,7 +247,7 @@ def run_ensemble_strategy(df, unique_trade_date, rebalance_window, validation_wi
         
         print("======PPO Training========")
         file_object.write('\n======PPO Training========')
-        model_ppo = train_PPO(env_train, model_name="PPO_100k_sp100_{}".format(i), timesteps=100000)
+        model_ppo = train_PPO(env_train, model_name="PPO_50k_sp100_{}".format(i), timesteps=50000)
         print("======PPO Validation from: ", unique_trade_date[i - rebalance_window - validation_window], "to ",
               unique_trade_date[i - rebalance_window-1])
         file_object.write('\n======PPO Validation from: '+str(unique_trade_date[i - rebalance_window - validation_window])+" to "+str(unique_trade_date[i - rebalance_window-1]))
