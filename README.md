@@ -2,7 +2,7 @@
 
 
 ## Abstract
-Reinforcement learning is a sub-field of machine learning which is getting popularity in the alpha research. Ensemble strategy using multiple reinforcement learning algorithms was proposed in this paper as an alternative to buy and hold approach. Proximal Policy Optimization (PPO), Advantage Actor Critic (A2C) and Deep Deterministic Policy Gradient (DDPG) algorithms were used to build a robust algorithm that can learn the stock market behavior in different environment. The proposed ensemble approach had failed to outperform the buy and hold approach of individual components of S&P 100 index in terms of accumulated return. However, the algorithm had successfully avoid the big plunge in stock market worldwide due to covid-19 crisis in year 2020.
+Reinforcement learning is a sub-field of machine learning which is getting popularity in the alpha research. Ensemble strategy using multiple reinforcement learning algorithms was proposed in this paper as an alternative to buy and hold approach. Proximal Policy Optimization (PPO), Advantage Actor Critic (A2C) and Deep Deterministic Policy Gradient (DDPG) algorithms were used to build a robust algorithm that can learn the stock market behavior in different environment. The proposed ensemble approach had outperformed S&P 500 index in terms of cumulative return, Sharpe ratio and maximum drawdown.
 
 <img src=figs/stock_trading.png width="600">
 
